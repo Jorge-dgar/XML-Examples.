@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE F1_World_Championship_Season_2023 [
+    <!ELEMENT F1_World_Championship_Season_2023 (race)+>
+    <!ELEMENT race (name, date, result+)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT result (position, driver)>
+    <!ELEMENT position (#PCDATA)>
+    <!ELEMENT driver (name_driver, nationality, car_number, team, engine?)>
+    <!ELEMENT name_driver (#PCDATA)>
+    <!ELEMENT nationality (#PCDATA)>
+    <!ELEMENT car_number (#PCDATA)>
+    <!ELEMENT team (#PCDATA)>
+    <!ELEMENT engine (#PCDATA)>
+]>
+
+<F1_World_Championship_Season_2023>
+    <race>
+        <name> Monaco Grand Prix</name>
+        <date> May 28th </date>
+        <result>
+            <position> 1 </position>
+            <driver>
+                <name_driver> Max Verstappen </name_driver>
+                <nationality> Netherlands </nationality>
+                <car_number> 1 </car_number>
+                <team> Red Bull </team>
+                <engine> Honda </engine>
+            </driver>
+        </result>
+        <result>
+            <position> 2 </position>
+            <driver>
+                <name_driver> Fernando Alonso </name_driver>
+                <nationality> Spain </nationality>
+                <car_number> 14 </car_number>
+                <team> Aston Martin </team>
+                <engine> Mercedes </engine>
+            </driver>
+        </result>
+        <result>
+            <position> 3 </position>
+            <driver>
+                <name_driver> Esteban Ocon </name_driver>
+                <nationality> France </nationality>
+                <car_number> 31 </car_number>
+                <team> Alpine </team>
+                <engine> Renault </engine>
+            </driver>
+        </result>
+    </race>
+
+    <race>
+        <name> Singapore Grand Prix </name>
+        <date> September 17th </date>
+        <result>
+            <position> 1 </position>
+            <driver>
+                <name_driver> Carlos Sáinz Vázquez de Castro </name_driver>
+                <nationality> Spain </nationality>
+                <car_number> 55 </car_number>
+                <team> Scuderia Ferrari </team>
+            </driver>
+        </result>
+        <result>
+            <position> 2 </position>
+            <driver>
+                <name_driver> Lando Norris </name_driver>
+                <nationality> United Kingdom </nationality>
+                <car_number> 4 </car_number>
+                <team> McLaren </team>
+                <engine> Mercedes </engine>
+            </driver>
+        </result>
+        <result>
+            <position> 3 </position>
+            <driver>
+                <name_driver> Lewis Hamilton </name_driver>
+                <nationality> United Kingdom </nationality>
+                <car_number> 44 </car_number>
+                <team> Mercedes </team>
+            </driver>
+        </result>
+    </race>
+
+    <race>
+        <name> Brazil Grand Prix </name>
+        <date> November 5th </date>
+        <result>
+            <position> 1 </position>
+            <driver>
+                <name_driver> Max Verstappen </name_driver>
+                <nationality> Netherlands </nationality>
+                <car_number> 1 </car_number>
+                <team> Red Bull </team>
+                <engine> Honda </engine>
+            </driver>
+        </result>
+        <result>
+            <position> 2 </position>
+            <driver>
+                <name_driver> Lando Norris </name_driver>
+                <nationality> United Kingdom </nationality>
+                <car_number> 4 </car_number>
+                <team> McLaren </team>
+                <engine> Mercedes </engine>
+            </driver>
+        </result>
+        <result>
+            <position> 3 </position>
+            <driver>
+                <name_driver> Fernando Alonso </name_driver>
+                <nationality> Spain </nationality>
+                <car_number> 14 </car_number>
+                <team> Aston Martin </team>
+                <engine> Mercedes </engine>
+            </driver>
+        </result>
+    </race>
+</F1_World_Championship_Season_2023>
